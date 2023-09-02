@@ -1,0 +1,66 @@
+{% extends '../partials/__base.html' %}
+{% load static %}
+
+{% block page_title %} {{ page_title }} {% endblock page_title %}
+
+{% block content %}
+    <main
+        class="p-5"
+        style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;"
+    >
+        {% include "../partials/__messages.html" %}
+
+        <h2 align="center">{{ page_title }}</h2>
+
+        <div
+            class="card mb-4 p-0"
+            style="width: 100%; max-width: 600px; margin: 0 auto 0;"
+        >
+            <h5 class="card-header">Equipamento: {{ equipment.equipment_model }}</h5>
+
+            <div class="card-body">
+                <h5 class="card-title mb-3">Nº de patrimônio: {{ equipment.patrimony }}</h5>
+                <p class="card-text">Localização: {{ equipment.location|default_if_none:"---" }}</p>
+                <p class="card-text">Nº de série: {{ equipment.serial_number }}</p>
+                <p class="card-text">Histórico de acidentes: {{ equipment.accident_history|yesno:"Sim,Não" }}</p>
+            </div>
+        </div>
+
+        <form
+            action="{% url 'equipments:equipment_open_work' equipment_id=equipment.id %}"
+            class="pt-3 row w-100"
+            method="POST"
+            style="max-width: 600px; margin: 0 auto 0;"
+        >
+            {% csrf_token %}
+
+            {% for field in form %}
+                <div class="mb-3">
+                    <label
+                        for="{{ field.id_for_label }}"
+                        class="form-label"
+                    >
+                        {{ field.label }}
+                    </label>
+
+                    {{ field }}
+                </div>
+            {% endfor %}
+
+            <div>
+                <button
+                    class="btn btn-lg btn-primary w-100"
+                    type="submit"
+                    {% if submit_disabled %} disabled {% endif %}
+                >
+                    ENVIAR
+                </button>
+            </div>
+        </form>
+
+        <p class="text-center text-muted mt-3">
+            © SIGEMH – {% now "Y" %}
+        </p>
+    </main>
+
+{% endblock content %}

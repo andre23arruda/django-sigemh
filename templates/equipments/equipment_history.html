@@ -1,0 +1,49 @@
+{% extends '../partials/__base.html' %}
+{% load static %}
+
+{% block page_title %} {{ page_title }} {% endblock page_title %}
+
+{% block content %}
+    <main
+        class="p-5"
+        style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;"
+    >
+        <h2 align="center">{{ page_title }}</h2>
+
+        <div
+            class="pt-3 row"
+            style="
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto 0;
+            "
+        >
+            {% csrf_token %}
+
+            {% for work in works %}
+                <div class="card mb-4 p-0">
+                    <h5 class="card-header">{{ work }}</h5>
+
+                    <div class="card-body">
+                        <p class="card-text">Solicitante: {{ work.requester }}</p>
+                        <p class="card-text">Descrição: {{ work.request_description }}</p>
+                        <p class="card-text">Solução: {{ work.job_description|default:"---" }}</p>
+                        <span class="badge bg-secondary">{{ work.get_status_display }}</span>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <div class="p-0"">
+                <a href="./" class="btn btn-lg btn-primary w-100">
+                    Voltar
+                </a>
+            </div>
+
+        </div>
+
+        <p class="text-center text-muted mt-3">
+            © SIGEMH – {% now "Y" %}
+        </p>
+    </main>
+
+{% endblock content %}

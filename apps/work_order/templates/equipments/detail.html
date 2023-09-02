@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+    <a href="{% url 'equipments:create_equipment' object.pk %}" class="btn btn-primary">Adicionar {{ object.name|lower }} </a>
+    <h4>{{ object }}</h4>
+    <hr>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Fabricante</th>
+            <th>Modelo</th>
+            <th>Patrimônio</th>
+            <th>Número de Série</th>
+            <th>Setor</th>
+            <th>Função</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for obj in object.equipments.all %}
+            <tr>
+                <!-- Retirando a função de editar equipamento pelo sistema
+                <td><a href="{% url 'equipments:update_equipment' obj.pk %}">Editar</a></td>
+                -->
+                <td>{{ obj.manufacturer|default:"-"  }}</td>
+                <td>{{ obj.equipment_model|default:"-"  }}</td>
+                <td>{{ obj.serial_number }}</td>
+                <td>{{ obj.patrimony }}</td>
+                <td>{{ obj.sector|default:"-" }}</td>
+                <td>{{ obj.get_function_display }}</td>
+                <td><a href="{% url 'equipments:change_sector' obj.pk %}">Mover de Setor</a></td>
+                <td><a href="{% url 'equipments:history' obj.pk %}">Histórico</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock content %}

@@ -1,0 +1,27 @@
+body * {
+    transition: background 0.1s;
+}
+
+.darkmode-toggle {
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.238) !important;
+}
+
+.darkmode-background,
+.darkmode-layer {
+    width: 0 !important;
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.darkmode-toggle:hover,
+.darkmode-toggle.focus,
+.darkmode-toggle.active {
+    border: none;
+    outline:none;
+}
+
+.darkmode-toggle:hover,
+.darkmode--activated .darkmode-toggle:hover {
+    background-color: #e2dddd44;
+}

@@ -1,0 +1,72 @@
+{% extends '../partials/__base.html' %}
+{% load static %}
+
+{% block page_title %} {{ page_title }} {% endblock page_title %}
+
+{% block content %}
+    <main
+        class="p-5"
+        style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;"
+    >
+        <h2 align="center">{{ page_title }}</h2>
+
+        <div
+            class="card mb-4 p-0"
+            style="width: 100%; max-width: 600px; margin: 0 auto 0;"
+        >
+            <h5 class="card-header">Equipamento: {{ work.equipment }} ({{ work.get_service_display }})</h5>
+
+            <div class="card-body">
+                <p class="card-text"><b>Solicitante:</b> {{ work.requester }}</p>
+                <p class="card-text"><b>Descrição:</b> {{ work.request_description }}</p>
+                <p class="card-text">
+                    <b>Início:</b>
+                    {{ work.checkin|date:'d/m/Y H:i' }}
+                </p>
+            </div>
+        </div>
+
+        <form
+            action="{% url 'work_order:work_finish' work_id=work.id %}"
+            class="pt-3 row"
+            method="POST"
+            style="max-width: 600px; margin: 0 auto 0;"
+        >
+            {% csrf_token %}
+
+            {% for field in form %}
+                <div class="mb-3">
+                    <label
+                        for="{{ field.id_for_label }}"
+                        class="form-label"
+                    >
+                        {{ field.label }}
+                    </label>
+
+                    {{ field }}
+                </div>
+            {% endfor %}
+
+            <div>
+                <button
+                    class="btn btn-lg btn-primary w-100"
+                    type="submit"
+                >
+                    FINALIZAR
+                </button>
+
+                <a
+                    href="{% url 'equipments:equipment' equipment_id=work.equipment.id %}"
+                    class="btn btn-lg btn-secondary w-100 mt-4"
+                >
+                    Voltar
+                </a>
+            </div>
+        </form>
+
+        <p class="text-center text-muted mt-3">
+            © SIGEMH – {% now "Y" %}
+        </p>
+    </main>
+
+{% endblock content %}
