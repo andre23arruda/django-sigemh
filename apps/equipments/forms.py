@@ -40,6 +40,7 @@ class OpenWorkForms(forms.ModelForm):
             'request_description': forms.Textarea(attrs={
                 'class': 'form-control',
                 'rows': '3',
+                'required': True
             }),
         }
 
