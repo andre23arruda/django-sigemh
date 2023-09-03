@@ -1,4 +1,4 @@
-{% extends '../partials/__base.html' %}
+{% extends './partials/__base.html' %}
 {% load static %}
 
 {% block page_title %} {{ page_title }} {% endblock page_title %}
@@ -8,6 +8,7 @@
         width: 100vw;
         height: 100vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0;
@@ -15,6 +16,7 @@
         color: white;
         font-size: 4rem;"
     >
+        <img src="{% static 'images/check.gif' %}" alt="" srcset=""  width="75"/>
         <h1>
             SUCCESS!!
         </h1>

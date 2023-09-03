@@ -12,6 +12,7 @@ STATUS = (
     (1, 'Aberto'),
     (2, 'Em atendimento'),
     (3, 'Finalizado'),
+    (4, 'Impossível realizar'), # apenas gestor
 )
 
 
