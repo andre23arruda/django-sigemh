@@ -10,7 +10,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Python](https://www.python.org/)
-- [Conda](https://conda.io/projects/conda/en/stable/user-guide/install/download.html)
 - [Django](https://www.djangoproject.com/)
 
 ## 💻 Projeto
@@ -20,6 +19,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 </div>
 <p align="center">Models</p>
 <hr>
+
+### Pré requisitos
+Ter instalado:
+- [Python](https://www.python.org/downloads/)
+- [Conda](https://conda.io/projects/conda/en/stable/user-guide/install/download.html)
 
 
 ### Run
@@ -39,3 +43,6 @@ make migrate
 # Start
 make run
 ```
+
+## 🚧 Em breve
+Instruções de funcionalidades
