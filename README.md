@@ -44,5 +44,21 @@ make migrate
 make run
 ```
 
-## 🚧 Em breve
-Instruções de funcionalidades
+## Funcionalidades
+- Cadastro de colaboradores da engenharia clínica
+- Cadastro de solicitantes de ordem de serviço (enfermeiros, fisioterapeutas e médicos)
+- Armazém: controle de produtos, categorias, solicitantes, fornecedores, checkin e checkout
+- Cadastro de Locais (setores de serviço da unidade de saúde) e Normas de equipamentos.
+- Cadastro de equipamentos: fabricante, tipo de equipamento, modelo de equipamento e fotos.
+- Abertura de ordem de serviço (manutenção corretiva) de acordo com equipamento. Com check-in quando um usuário selecionar a OS e checkout ao finalizar.
+- Criação automática de ordem de serviço (manutenção preventiva e calibração)
+
+Cada equipamento do quadro de equipamentos da engenharia clínica possui um QR code para acesso de suas informações, histórico e ordem de serviço disponível.
+Se o usuário for da engenharia clínica, ao ler o QR code, poderá selecionar uma OS do equipamento para realizar. Ao realizar, pode descrever o trabalho realizado para facilitar futuro trabalho.
+Se o usuário for do corpo de saúde, poderá solicitar a abertura de uma OS.
+
+Envio de email para gestor.
+
+Possibilidade de desativar equipamento.
+
+Facilidade de encontrar equipamento, pois este deve ser cadastrado com setor de serviço da Unidade de saúde.
