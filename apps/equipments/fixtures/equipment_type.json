@@ -1,0 +1,1351 @@
+[{
+    "model": "equipments.equipmenttype",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.342Z",
+        "name": "Acelerador linear",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.342Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.348Z",
+        "name": "Agitador (laboratório)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.348Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.353Z",
+        "name": "Amalgamador",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.353Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.355Z",
+        "name": "Aminoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.355Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.362Z",
+        "name": "Analisador de função pulmonar",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.362Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.365Z",
+        "name": "Analisador de oxigênio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.365Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.371Z",
+        "name": "Analisador sangüíneo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.371Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 8,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.376Z",
+        "name": "Aquecedores de sangue",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.376Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 9,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.381Z",
+        "name": "Aspirador cirúrgico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.381Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 10,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.385Z",
+        "name": "Aspirador torácico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.385Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 11,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.391Z",
+        "name": "Aspirador uterino",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.391Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 12,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.396Z",
+        "name": "Aspiradores (emergência e traqueal)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.396Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 13,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.399Z",
+        "name": "Audiômetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.401Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 14,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.405Z",
+        "name": "Autoclave",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.405Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 15,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.410Z",
+        "name": "Balança analítica (laboratório)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.410Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 16,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.415Z",
+        "name": "Balança de adulto",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.415Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 17,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.418Z",
+        "name": "Balança eletrônica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.418Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 18,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.424Z",
+        "name": "Balança infantil",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.424Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 19,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.429Z",
+        "name": "Balão intra-aórtico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.429Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 20,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.434Z",
+        "name": "Bebedouro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.434Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 21,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.440Z",
+        "name": "Berço aquecido",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.440Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 22,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.444Z",
+        "name": "Bicicleta ergométrica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.444Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 23,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.449Z",
+        "name": "Bisturi elétrico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.449Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 24,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.453Z",
+        "name": "Bomba de cobalto",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.453Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 25,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.457Z",
+        "name": "Bomba de infusão",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.457Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 26,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.462Z",
+        "name": "Bomba de vácuo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.462Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 27,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.467Z",
+        "name": "Cadeira de rodas",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.467Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 28,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.472Z",
+        "name": "Caixa de prova (oftalmoscopia)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.472Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 29,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.474Z",
+        "name": "Calibrador de decibelímetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.477Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 30,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.482Z",
+        "name": "Calorímetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.482Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 31,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.487Z",
+        "name": "Cama elétrica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.487Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 32,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.493Z",
+        "name": "Caneta de alta rotação",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.493Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 33,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.496Z",
+        "name": "Capinógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.496Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 34,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.501Z",
+        "name": "Carro de anestesia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.501Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 35,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.506Z",
+        "name": "Central de gases",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.506Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 36,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.511Z",
+        "name": "Centrífuga",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.511Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 37,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.515Z",
+        "name": "Centrífuga refrigerada",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.515Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 38,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.519Z",
+        "name": "Ceratômetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.519Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 39,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.524Z",
+        "name": "Colposcópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.524Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 40,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.529Z",
+        "name": "Coluna pantográfica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.529Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 41,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.534Z",
+        "name": "Compressor para central de gases",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.534Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 42,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.539Z",
+        "name": "Compressor para equipo odontológico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.539Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 43,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.544Z",
+        "name": "Compressor para inalação",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.544Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 44,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.549Z",
+        "name": "Condicionador de temperatura",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.549Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 45,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.554Z",
+        "name": "Congelador (freezer)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.554Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 46,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.559Z",
+        "name": "Contador de célula",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.559Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 47,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.564Z",
+        "name": "Decibelímetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.564Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 48,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.567Z",
+        "name": "Disfibrilador",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.567Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 49,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.573Z",
+        "name": "Destilador",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.573Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 50,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.578Z",
+        "name": "Detetor fetal",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.578Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 51,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.583Z",
+        "name": "Disco esquiascópico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.583Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 52,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.589Z",
+        "name": "Ecógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.589Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 53,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.594Z",
+        "name": "Eletrocardiógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.594Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 54,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.598Z",
+        "name": "Eletrocautério",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.598Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 55,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.604Z",
+        "name": "Eletroencefalógrafos",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.604Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 56,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.610Z",
+        "name": "Eletromiógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.610Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 57,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.614Z",
+        "name": "Endoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.614Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 58,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.622Z",
+        "name": "Equipamento de esterilização a gás",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.622Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 59,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.628Z",
+        "name": "Equipamento de esterilização a vapor",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.628Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 60,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.635Z",
+        "name": "Equipamento de hemodiálise",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.635Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 61,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.642Z",
+        "name": "Equipamento de raios-X",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.642Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 62,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.648Z",
+        "name": "Equipamento de raios-X odontológico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.648Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 63,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.654Z",
+        "name": "Equipamento de vídeo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.654Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 64,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.661Z",
+        "name": "Equipamento de ultra-som para monitoração",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.661Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 65,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.667Z",
+        "name": "Equipamento de ultra-som para diagnóstico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.667Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 66,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.676Z",
+        "name": "Equipamento de ultra-som para terapia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.678Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 67,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.684Z",
+        "name": "Equipo odontológico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.684Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 68,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.689Z",
+        "name": "Esfigmomanometros",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.689Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 69,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.696Z",
+        "name": "Espectrofotômetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.696Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 70,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.701Z",
+        "name": "Estufa",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.701Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 71,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.709Z",
+        "name": "Fonocardiógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.709Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 72,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.716Z",
+        "name": "Forno de bier",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.716Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 73,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.724Z",
+        "name": "Gama câmara",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.724Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 74,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.729Z",
+        "name": "Geladeira",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.729Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 75,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.736Z",
+        "name": "Grupo gerador",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.737Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 76,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.743Z",
+        "name": "Hemodialisador peritonial",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.743Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 77,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.748Z",
+        "name": "Incubadora",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.748Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 78,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.755Z",
+        "name": "Incubadora de transporte",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.755Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 79,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.762Z",
+        "name": "Lâmpada cirúrgica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.762Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 80,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.769Z",
+        "name": "Lâmpada de fenda ou biorrefrator",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.769Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 81,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.774Z",
+        "name": "Laser cirúrgico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.774Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 82,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.781Z",
+        "name": "Lensômetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.781Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 83,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.787Z",
+        "name": "Litotriptor",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.787Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 84,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.793Z",
+        "name": "Luxímetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.793Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 85,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.800Z",
+        "name": "Marca passo externo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.800Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 86,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.806Z",
+        "name": "Medidor de débito cardíaco",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.806Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 87,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.814Z",
+        "name": "Mesa cirúrgica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.814Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 88,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.816Z",
+        "name": "Micro-motor para equipo odontológico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.816Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 89,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.825Z",
+        "name": "Microscópio analítico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.825Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 90,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.833Z",
+        "name": "Microscópio cirúrgico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.833Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 91,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.839Z",
+        "name": "Monitor de ECG",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.839Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 92,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.846Z",
+        "name": "Monitor de temperatura",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.846Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 93,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.853Z",
+        "name": "Monitor fetal",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.853Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 94,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.859Z",
+        "name": "Monitores de apnea (neonatal)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.859Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 95,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.864Z",
+        "name": "Monitores de oxigênio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.864Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 96,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.872Z",
+        "name": "Monitores de pressão",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.872Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 97,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.879Z",
+        "name": "Nebulizadores ultra-sônicos",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.879Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 98,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.884Z",
+        "name": "Negatoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.884Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 99,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.890Z",
+        "name": "Oftalmoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.890Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 100,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.898Z",
+        "name": "Oftalmoscópio binocular indireto",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.898Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 101,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.903Z",
+        "name": "Oftalmoscópio direto",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.903Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 102,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.908Z",
+        "name": "Otoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.908Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 103,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.914Z",
+        "name": "Oxímetro (pulso)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.914Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 104,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.918Z",
+        "name": "Processadora de filme de raios-x",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.918Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 105,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.924Z",
+        "name": "Projetor de optótipos",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.924Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 106,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.928Z",
+        "name": "Projetor de slides",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.928Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 107,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.933Z",
+        "name": "Refratômetro ou refrator",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.934Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 108,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.939Z",
+        "name": "Refrigerador comum",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.939Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 109,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.943Z",
+        "name": "Refrigerador para bolsa de sangue",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.943Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 110,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.944Z",
+        "name": "Réguas esquiascópico",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.944Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 111,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.951Z",
+        "name": "Ressonância nuclear magnética",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.951Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 112,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.956Z",
+        "name": "Retinoscópio",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.956Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 113,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.961Z",
+        "name": "Secadora de roupa (lavanderia)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.961Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 114,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.964Z",
+        "name": "Serra de gesso",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.964Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 115,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.968Z",
+        "name": "Sistema de monitoração fisiológica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.968Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 116,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.973Z",
+        "name": "Televisão",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.974Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 117,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.976Z",
+        "name": "Tomógrafo",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.976Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 118,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.984Z",
+        "name": "Tonômetro",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.984Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 119,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.987Z",
+        "name": "Transformador de energia elétrica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.987Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 120,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.994Z",
+        "name": "Umidificadores",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.994Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 121,
+    "fields": {
+        "created_at": "2023-09-05T03:45:46.999Z",
+        "name": "Unidade de autotransfusão",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:46.999Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 122,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.004Z",
+        "name": "Unidade de diatermia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.004Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 123,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.009Z",
+        "name": "Unidade de ondas curtas",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.009Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 124,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.014Z",
+        "name": "Unidade de potencial evocado",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.014Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 125,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.017Z",
+        "name": "Unidades de anestesia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.017Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 126,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.024Z",
+        "name": "Ventilador (tipo eletrodoméstico)",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.024Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 127,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.030Z",
+        "name": "Ventilador para terapia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.030Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 128,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.034Z",
+        "name": "Ventiladores anestésicos",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.034Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 129,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.039Z",
+        "name": "Ventiladores de pressão",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.039Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 130,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.043Z",
+        "name": "Ventiladores de pressão para terapia",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.043Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 131,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.049Z",
+        "name": "Ventiladores de pressão para terapia neonatal",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.049Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 132,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.053Z",
+        "name": "Ventiladores de pressão para terapia pediátrica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.053Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 133,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.057Z",
+        "name": "Ventiladores de pressão para terapia respiratória",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.057Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 134,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.062Z",
+        "name": "Ventiladores de pressão para terapia respiratória neonatal",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.062Z"
+    }
+}, {
+    "model": "equipments.equipmenttype",
+    "pk": 135,
+    "fields": {
+        "created_at": "2023-09-05T03:45:47.067Z",
+        "name": "Ventiladores de pressão para terapia respiratória pediátrica",
+        "description": null,
+        "mean_failure_time": 20,
+        "updated_at": "2023-09-05T03:45:47.067Z"
+    }
+}]

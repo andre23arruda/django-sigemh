@@ -40,6 +40,7 @@ class EquipmentType(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Criado em')
     name = models.CharField(max_length=75, unique=True, verbose_name='Nome')
     description = models.TextField(max_length=75, null=True, blank=True, verbose_name='Descrição')
+    mean_failure_time = models.PositiveSmallIntegerField(default=2010, verbose_name='Tempo médio de falha (meses)')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Editado em')
 
     def __str__(self):
@@ -65,12 +66,15 @@ class Equipment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Criado em')
     equipment_model = models.ForeignKey(EquipmentModel, on_delete=models.CASCADE, related_name='model_equipments', verbose_name='Modelo do equipamento')
     year_of_manufacture = models.PositiveSmallIntegerField(default=2010, verbose_name='Ano de fabricação')
+    acquisition_date = models.DateField(blank=True, null=True, verbose_name='Data de aquisição')
     serial_number = models.CharField(max_length=75, unique=True, verbose_name='Número de série')
     patrimony = models.CharField(max_length=75, unique=True, verbose_name='Número de patrimônio')
     location = models.ForeignKey(Location, on_delete=models.DO_NOTHING, null=True, blank=True, verbose_name='Localização')
     accident_history = models.BooleanField(default=True, verbose_name='Histórico de acidente')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Editado em')
     work_priority = models.PositiveSmallIntegerField(choices=PRIORITY, default=1, verbose_name='Prioridade')
+    warranty_expiration = models.DateField(blank=True, null=True, verbose_name='Vencimento da garantia')
+    external_maintenance = models.BooleanField(default=False, verbose_name='Manutenção externa')
     qr_code = models.ImageField(blank=True, upload_to='equipments/qr_code', verbose_name='QR Code')
     is_active = models.BooleanField(default=True, verbose_name='Ativo')
 
@@ -89,8 +93,3 @@ class Equipment(models.Model):
                 See
 			</a>'''
 		)
-
-
-# @receiver(post_save, sender=Equipment)
-# def create_profile(sender, instance, created, **kwargs):
-#     qrcode_result =  generate_equipment_qrcode(instance)

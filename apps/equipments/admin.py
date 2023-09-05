@@ -20,6 +20,7 @@ class EquipmentModelAdmin(admin.ModelAdmin):
 @admin.register(EquipmentType)
 class EquipmentTypeAdmin(admin.ModelAdmin):
     list_display = ['name']
+    ordering = ['name']
 
 
 @admin.register(Manufacturer)

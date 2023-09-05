@@ -6,6 +6,8 @@ SERVICES = (
     (1, 'Manutenção corretiva'),
     (2, 'Manutenção preventiva'),
     (3, 'Calibração'),
+    (4, 'Treinamento'),
+    (5, 'Instalação'),
 )
 
 STATUS = (
