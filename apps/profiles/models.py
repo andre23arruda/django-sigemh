@@ -22,8 +22,10 @@ class Profile(models.Model):
     workload = models.PositiveSmallIntegerField(default=40, verbose_name=_('Workload'))
     wage = models.PositiveSmallIntegerField(default=3000, verbose_name=_('Wage'))
     engineering_team = models.BooleanField(default=True, verbose_name=_('Engineering team'))
+    avatar = models.URLField(max_length=200, blank=True, help_text='Avatar URL', verbose_name=_('Avatar'))
 
     class Meta:
+        app_label = 'auth'
         verbose_name = _('Profile')
         verbose_name_plural = _('Profiles')
 

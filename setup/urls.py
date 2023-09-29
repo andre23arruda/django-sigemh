@@ -7,7 +7,6 @@ from .views import request_error, request_success
 
 
 admin.site.index_title = 'Área de Administração'
-admin.site.site_title = 'Estoque de medicamentos'
 
 urlpatterns = [
     path('admin/', admin.site.urls),

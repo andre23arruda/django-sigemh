@@ -7,8 +7,10 @@ else
     VENV_PATH := ./venv/bin
 endif
 
+conda:
+	conda create --prefix ./venv python=3.10 
+
 install:
-	conda create --prefix ./venv python=3.10
 	$(VENV_PATH)/pip install -r requirements.txt
 	cp setup/config/env_example.py  setup/config/env.py
 	@echo ">>> Add correct values to setup/config/env.py"
